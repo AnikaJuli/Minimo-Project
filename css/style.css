@@ -1,0 +1,156 @@
+*{
+
+}
+body{
+    margin: 0;
+}
+
+header{    padding: 20px 0;
+    /* background: #cfcfda; */
+    /* overflow: hidden; */
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.logo{
+    width: 20%;
+    float: left;
+}
+
+nav{
+    text-decoration: none;
+    width: 80%;
+    float: left;
+}
+
+nav ul{
+    /* text-decoration: none; */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li{
+    /* color: black; */
+    list-style: none;
+    /* text-decoration: none; */
+}
+
+nav ul li a{
+    color: #646563cc;
+    font-size: 16px;
+    padding: 0 50px;
+    padding-right: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+	background: black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 0;
+	padding-right: 0;
+	color: white;
+	transition-property: all;
+	transition-timing-function: linear;
+	transition-duration: 3s;
+	
+	
+}
+.banner-section{}
+
+.banner-section img{
+    width: 100%;
+}
+
+.photodairy{
+    padding: 50px 0;
+}
+
+.container2{
+    width: 1100px;
+    margin: auto;
+}
+
+.gateway-content{
+    padding: 35px 0;
+}
+
+.gateway-content a{
+    text-decoration: none;
+    color: #bfc0c2;
+}
+
+.gateway-content h2{
+    margin: 0;
+    color: #2f2c2cbf;
+    padding: 20px 0;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.gateway-content p{
+    padding-bottom: 20px;
+    /* padding: 20px 10px; */
+    margin: 0;
+    line-height: 26px;
+    font-size: 20px;
+    color: #191717d6;
+}
+
+.pictures-part{
+    padding-top: 20px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-1-2{
+    width: 45%;
+    flex-basis: 45%;
+}
+
+.col-1-2 a {
+	text-decoration: none;
+	color: #00000085;
+	padding-top: 20px;
+	display: block;
+}
+
+.col-1-2 img {
+	width: 100%;
+}
+
+.col-1-2 h2{
+    margin: 0;
+    padding-top: 20px;
+    font-size: 28px;
+    color: #212020ba;
+}
+.col-1-2 p{
+    margin: 0;
+    padding-top: 20px;
+    line-height: 24px;
+    font-size: 17px;
+    color: #2f2e2ee0;
+}
+.copyright{
+
+}
+.copyright ul{
+
+}
+.copyright ul li{
+
+}
+
+.copuright ul li a{
+	
+}
